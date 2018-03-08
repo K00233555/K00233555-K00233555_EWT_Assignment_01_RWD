@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang = en>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Off the Record - Sign in</title>
+        <meta name="description" content="Album Review Website">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+<body>
+    
+<div class = "overallPage">
+    <div class = "contentsPage">
+        <header class = "pageheader">
+    <div class = "headerLogo">
+        <img src = "img/OTR.JPG" alt = "OTR logo">
+        </div>
+        
+    <div class = "websiteLogo">
+         <img src = "img/OffTheRecord.JPG" alt = "Off the Record Text Logo">
+        
+        </div>
+        
+        <div class= "searchInput">
+        
+        <form style="text-align: right">
+         <p><input type="text" name="search" placeholder="Search.."  ></p>
+        </form>
+  
+        </div>
+
+     </header>
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">Menu </button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="index.html">Home</a>
+    <a href="aboutUs.html">About Us</a>
+    <a href="reviewsListing.html">Reviews</a>
+      <a href="news.html">News</a>
+      <a href="signinsignup.html">Sign in / Sign Up</a>
+      <a href="contactUs.html">Contact Us</a>
+  </div>
+    
+</div>
+    <div class = "topadvert"> <img src = "img/Advert.JPG" alt = "Kraftwerk Concert logo"></div>
+    <nav class = "menu">
+        <ul>
+      <li> <a href = "index.html">Home</a></li>
+      <li ><a href="aboutUs.html">About Us </a> </li>
+      <li><a href="reviewsListing.html">Reviews</a> </li> 
+    <li><a href="news.html">News</a> </li>         
+    </ul>
+    
+    
+    </nav>
+
+<div class="signIn">
+     <p> Submit a Review <br> - Sign In</p>
+    <img src = "img/Bar.JPG" alt = "thin bar">
+    <a href="signinsignup.html">
+    <img src = "img/SignInButton.JPG" alt = "sign in button" >
+    </a> 
+     <a href="signinsignup.html">
+    <img src = "img/SignUpbtn.JPG" alt = "sign up button" >
+    </a>
+    
+</div>
+
+<div class= "review">
+    
+<p> In order to submit a <a href = "#submitReview">review</a>, you have to be a member. </p>
+    <fieldset > <legend class = "otrText"> Sign in</legend>
+<p> Already a member? Sign In ...</p>
+    <p>User Name :<input type = "text" name = "userName" value = "Input your user name here"></p>
+    Password : <input type = "password" name = "passWord" value = "Input your password here"> <br>
+    <input type="submit" value="Submit">
+    </fieldset>
+    
+<fieldset > <legend class = "otrText">New Member? Sign up</legend>
+<p> New Member Details</p>
+    <p>User Name :<input type = "text" name = "userName" value = "Input your user name here"></p>
+    Password : <input type = "password" name = "passWord" value = "Input your password here"> <br>
+    <input type="submit" value="Submit">
+    </fieldset>
+    
+    <div id="submitReview">
+    <fieldset> <legend class = "otrText">Submit a review</legend>   
+        <p> Album Name <input type = "text" name = "userName" value = "Input Album name here"></p>
+        <p>Artist Name <input type = "text" name = "userName" value = "Input Artist name here"></p>
+        <p>Genre<input type = "text" name = "Genre" value = "Input Album genre here"></p>
+        <p>Date of Review<input type ="date" name = "dateOfReview" ></p>
+        <p>Summary<input type = "text" name = "Genre" value = "Input Review Summary here">
+        <p>Full Review</p><textarea rows = "10" cols = "30"></textarea>
+        <p>Upload Album Cover Art from file:</p>
+         <input type="file" name="pic" accept="image/*">
+         <p><input type="submit" value="Submit Review "></p>
+    </fieldset>
+         </div> 
+        
+   <div id="editDeleteReview">
+    <fieldset> <legend class = "otrText">Edit / Delete a review</legend>   
+        <p> Album Name <input type = "text" name = "userName" value = "Input Album name here"></p>
+        <p>Artist Name <input type = "text" name = "userName" value = "Input Artist name here"></p>
+        <p>Date of Review<input type ="date" name = "dateOfReview" ></p>
+        <p>Editing or Deleting Review ...</p>
+        <select>
+            <option value="edit">Edit</option>
+            <option value="delete">Delete</option>
+        </select>
+        <p>Reason for Edit / Delete <input type = "text" name = "reason" value = "Input Reason for Edit/Delete here">
+        <p>Edit Review</p><textarea rows = "10" cols = "30"></textarea>
+        <p>Upload New Album Cover Art from file:</p>
+         <input type="file" name="pic" accept="image/*">
+         <p><input type="submit" value="Edit / Delete Review"></p>
+    </fieldset>
+      
+    
+    </div>
+
+        <img src = "img/Bar.JPG" alt = "bar image"><br>
+        
+<div class= "aboutUs">
+ <div class ="aboutUsTitle">About Us </div>
+    <p>Tired of reading lazy reviews from the same reviewers? </p>
+    <p>Well, here at OTR we want YOU to be the voice. You do the reviews, you get the rewards!</p>
+    <p>Interested? Find more information <a href ="aboutUs.html#join" target = "_blank"> here </a> </p>
+
+</div>
+<div class = "smallReviews">
+    
+    <div class = "albumSrImg1">
+     <a href = "low.html"  target="_blank"><img src = "img/low.jpg" class = "albumArtSr" alt = "low" ></a>
+    </div> 
+    <div class = "srAlbumTitle1"> 
+    <p class = "srArtist">
+        David Bowie
+        </p>
+        <p class = "srTitle">
+        Low
+        </p>
+    </div>
+
+    
+   
+    <div class = "albumSrImg2">
+     <a href = "honor.html" target="_blank"><img class = "albumArtSr" src = "img/Honor.jpg" alt = "Honour Found in Decay" ></a>
+    </div> 
+    <div class = "srAlbumTitle2"> 
+    <p class = "srArtist">
+        Neurosis
+        </p>
+        <p class = "srTitle">
+        Honor Found In Decay
+        </p>
+    
+ </div>
+    
+   
+    <div class = "albumSrImg3">
+     <a href = "spirit.html" target="_blank"><img src = "img/Spirit.jpg" class = "albumArtSr" alt = "Spirit" ></a> 
+    </div> 
+    <div class = "srAlbumTitle3"> 
+    <p class = "srArtist">
+        Depeche Mode
+        </p>
+        <p class = "srTitle">
+        Spirit
+        </p>
+    </div>
+ 
+</div>
+    
+    <footer class = "pagefooter">
+    <div class ="contactDetails">
+        <img src = "img/contact_details.JPG" alt = "Contact Details">
+        </div>
+        
+        <div class = "footerAdvert">
+        
+        <img src = "img/Advert.JPG" alt = "Kraftwerk Concert logo">
+        </div>
+        
+        
+        <div class = "footerIcon">
+        
+        <img src = "img/OTR.JPG" alt = "OTR logo">
+        </div>
+        
+    </footer>
+    </div>
+    </div>
+    </div>
+    <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</body>
+</html>
